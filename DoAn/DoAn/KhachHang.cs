@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BanVeMayBay
 {
+    [Serializable]
     class KhachHang
     {
         //Fields

@@ -31,3 +31,10 @@ I:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\DoAn.pdb
 I:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\bin\Debug\DoAn.exe
 I:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\bin\Debug\DoAn.pdb
 I:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\BanVeMayBay.csprojResolveAssemblyReference.cache
+D:\git\DAHDT-Uyen\DoAn\DoAn\bin\Debug\DoAn.exe.config
+D:\git\DAHDT-Uyen\DoAn\DoAn\bin\Debug\DoAn.exe
+D:\git\DAHDT-Uyen\DoAn\DoAn\bin\Debug\DoAn.pdb
+D:\git\DAHDT-Uyen\DoAn\DoAn\obj\Debug\BanVeMayBay.csprojAssemblyReference.cache
+D:\git\DAHDT-Uyen\DoAn\DoAn\obj\Debug\BanVeMayBay.csproj.CoreCompileInputs.cache
+D:\git\DAHDT-Uyen\DoAn\DoAn\obj\Debug\DoAn.exe
+D:\git\DAHDT-Uyen\DoAn\DoAn\obj\Debug\DoAn.pdb

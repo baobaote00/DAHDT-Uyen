@@ -49,6 +49,7 @@
     <Compile Include="LoaiVe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.cs" />
+    <Compile Include="TestSerializable.cs" />
     <Compile Include="Ve.cs" />
   </ItemGroup>
   <ItemGroup>

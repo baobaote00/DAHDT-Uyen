@@ -1,7 +1,9 @@
-﻿using System;
+﻿using DoAn;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,37 +13,29 @@ namespace BanVeMayBay
     {
         static void Main(string[] args)
         {
-            KhachHang kh1 = new KhachHang("Mai", "123", "123", "456");
-            KhachHang kh2 = new KhachHang("Lai", "456", "123", "456");
-            KhachHang kh3 = new KhachHang("Nam", "789", "123", "456");
-            Console.WriteLine(kh1.toString());
-
-            LinkedList<KhachHang> kh = new LinkedList<KhachHang>();
-            kh.AddLast(kh1);
-            kh.AddLast(kh2);
-            kh.AddLast(kh3);
-            string[] dskh = KhachHang.toStringArray(kh);
-
-            using (StreamWriter sw = new StreamWriter(@"I:\CNTT\LapTrinhHuongDoiTuong\DoAn\test.txt"))
+            string path = "test.json";
+            if (!File.Exists(path))
             {
-                foreach (string s in dskh)
+                File.Create(path);
+            }
+            else
+            {
+                LinkedList<KhachHang> ks = new LinkedList<KhachHang>();
+                ks.AddLast(new KhachHang("uyen", "123", "baobaote@gmail.com", "123", new Ve[] { new Ve() }, new ChuyenBay()));
+                ks.AddLast(new KhachHang("uyen", "123", "baobaote@gmail.com", "123", new Ve[] { new Ve() }, new ChuyenBay()));
+                ks.AddLast(new KhachHang("uyen", "123", "baobaote@gmail.com", "123", new Ve[] { new Ve() }, new ChuyenBay()));
+                ks.AddLast(new KhachHang("uyen", "123", "baobaote@gmail.com", "123", new Ve[] { new Ve() }, new ChuyenBay()));
+                ks.AddLast(new KhachHang("uyen", "123", "baobaote@gmail.com", "123", new Ve[] { new Ve() }, new ChuyenBay()));
+
+                LinkedList<KhachHang> ks1 = TestSerializable<KhachHang>.Deserializable(path);
+
+                for (LinkedListNode<KhachHang> i = ks1.First; i != null; i = i.Next)
                 {
-                    sw.WriteLine(s);
+                    Console.WriteLine(i.Value.toStringFull());
+                    Console.WriteLine("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
                 }
             }
-            //string line = "";
-            //using (StreamReader sr = new StreamReader(@"F:\CNTT\LapTrinhHuongDoiTuong\DoAn\test.txt"))
-            //{
-            //    while ((line = sr.ReadLine()) != null)
-            //    {
-            //        Console.WriteLine(line);
-            //    }
-            //}
-            themKhachHang();
-            inThongTinKhachHangTuFile();
-            
         }
-
         public static void themKhachHang()
         {
             LinkedList<KhachHang> kh = new LinkedList<KhachHang>();
@@ -67,7 +61,7 @@ namespace BanVeMayBay
             // them khach hang vao file
             kh.AddLast(khachHang);
             string[] dskh = KhachHang.toStringArray(kh);
-            using (StreamWriter sw = new StreamWriter(@"I:\CNTT\LapTrinhHuongDoiTuong\DoAn\test.txt",true))
+            using (StreamWriter sw = new StreamWriter(@"I:\CNTT\LapTrinhHuongDoiTuong\DoAn\test.txt", true))
             {
                 foreach (string s in dskh)
                 {
