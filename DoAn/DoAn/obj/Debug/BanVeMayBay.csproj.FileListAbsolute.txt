@@ -1,0 +1,33 @@
+F:\LapTrinhHuongDoiTuong\DoAn\DoAn\bin\Debug\DoAn.exe.config
+F:\LapTrinhHuongDoiTuong\DoAn\DoAn\bin\Debug\DoAn.exe
+F:\LapTrinhHuongDoiTuong\DoAn\DoAn\bin\Debug\DoAn.pdb
+F:\LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\BanVeMayBay.csprojResolveAssemblyReference.cache
+F:\LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\DoAn.exe
+F:\LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\DoAn.pdb
+I:\LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\DoAn.exe
+I:\LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\DoAn.pdb
+F:\ \LapTrinhHuongDoiTuong\DoAn\DoAn\bin\Debug\DoAn.exe.config
+F:\ \LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\DoAn.exe
+F:\ \LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\DoAn.pdb
+F:\ \LapTrinhHuongDoiTuong\DoAn\DoAn\bin\Debug\DoAn.exe
+F:\ \LapTrinhHuongDoiTuong\DoAn\DoAn\bin\Debug\DoAn.pdb
+F:\ \LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\BanVeMayBay.csprojResolveAssemblyReference.cache
+F:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\bin\Debug\DoAn.exe.config
+F:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\bin\Debug\DoAn.exe
+F:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\bin\Debug\DoAn.pdb
+F:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\DoAn.exe
+F:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\DoAn.pdb
+F:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\BanVeMayBay.csprojResolveAssemblyReference.cache
+E:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\bin\Debug\DoAn.exe.config
+E:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\bin\Debug\DoAn.exe
+E:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\bin\Debug\DoAn.pdb
+E:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\BanVeMayBay.csprojAssemblyReference.cache
+E:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\BanVeMayBay.csproj.CoreCompileInputs.cache
+E:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\DoAn.exe
+E:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\DoAn.pdb
+I:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\bin\Debug\DoAn.exe.config
+I:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\DoAn.exe
+I:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\DoAn.pdb
+I:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\bin\Debug\DoAn.exe
+I:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\bin\Debug\DoAn.pdb
+I:\CNTT\LapTrinhHuongDoiTuong\DoAn\DoAn\obj\Debug\BanVeMayBay.csprojResolveAssemblyReference.cache
